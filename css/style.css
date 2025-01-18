@@ -443,7 +443,7 @@ pre {
     word-break: normal; }
 
 .pre-scrollable {
-  max-height: 140px;
+  max-height: 340px;
   overflow-y: scroll; }
 
 .container {
@@ -4742,7 +4742,7 @@ a.close.disabled {
     -ms-flex-negative: 0;
     flex-shrink: 0; }
   .modal-dialog-scrollable .modal-body {
-    overflow-y: auto; }
+    overflow-y: scroll; }
 
 .modal-dialog-centered {
   display: -webkit-box;
@@ -8140,8 +8140,8 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    /* overflow: hidden;
-    position: fixed; */
+    overflow: scroll;
+    position: relative;
     height: 100%;
     width: 100%; }
 

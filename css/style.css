@@ -443,7 +443,7 @@ pre {
     word-break: normal; }
 
 .pre-scrollable {
-  max-height: 340px;
+  max-height: 140px;
   overflow-y: scroll; }
 
 .container {
@@ -8140,8 +8140,8 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    overflow: hidden;
-    position: fixed;
+    /* overflow: hidden;
+    position: fixed; */
     height: 100%;
     width: 100%; }
 
